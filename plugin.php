@@ -22,7 +22,7 @@ $dir = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FI
     <param name="scale" value="noscale" />
     <param NAME="FlashVars" value="text=#<?php echo $text ?>">
     <param name="bgcolor" value="#FFFFFF">
-    <embed src="<?php echo $dir ?>clippy.swf"
+    <embed src="<?php echo $dir ?>lib/clippy.swf"
            width="110"
            height="14"
            name="clippy"

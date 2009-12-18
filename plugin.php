@@ -11,7 +11,7 @@
 
 $dir = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__));
 
-function clippy($text='copy-me'): ?>
+function clippy($text='copy-me') { ?>
     <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
             width="110"
             height="14"
@@ -34,4 +34,4 @@ function clippy($text='copy-me'): ?>
            bgcolor="#FFFFFF"
     />
     </object>
-<?php endfunction; ?>
+<?php } ?>
